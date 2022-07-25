@@ -12,8 +12,7 @@ the_array = [4,2,346,7,63,8,53,354,5253,3]
 for i in range(len(the_array) - 1):
     #s variable is for index number.        
     s = 0
-    #We create another for loop to compare 2 numbers and swap them 
-    #if the second number is smaller than the first number.
+    #We create another for loop to compare 2 numbers and swap them if the second number is smaller than the first number.
     for j in the_array:
         #Check if the second number is smaller.
         if the_array[s+1] < j:
@@ -26,3 +25,5 @@ for i in range(len(the_array) - 1):
             break
 
 print(the_array) 
+
+#The output is [2, 3, 4, 7, 8, 53, 63, 346, 354, 5253]
